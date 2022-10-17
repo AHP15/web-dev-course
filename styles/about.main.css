@@ -1,0 +1,71 @@
+.banner-content-index {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.banner-description-about {
+  border: 1px solid var(--lightGray);
+  background-color: #fff;
+}
+
+.banner-contact-info {
+  font-size: 15px;
+  margin-top: 15px;
+  line-height: 20px;
+}
+
+.banner-contact-info span {
+  font-weight: 600;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--lightBlack);
+}
+
+.logo-info {
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.about-logo {
+  border: 1px solid var(--lightGray);
+  height: 120px;
+  margin-top: 25px;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 25px;
+}
+
+.testimonials-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.testimonial-item {
+  width: 100%;
+  height: 200px;
+  background-image: url(../media/teacher.jpg);
+  background-size: cover;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: var(--orangeLightOpacity);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content h3,
+.content p {
+  color: #fff;
+}
+
+.content h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
