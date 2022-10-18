@@ -30,6 +30,11 @@
   border: 1px solid var(--lightGray);
   height: 120px;
   margin-top: 25px;
+  padding: 10px;
+}
+
+.about-logo img {
+  height: 100%;
 }
 
 .testimonials {
@@ -68,4 +73,59 @@
 .content h3 {
   font-size: 25px;
   margin-bottom: 15px;
+}
+
+.about-sponsors {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .banner-content-index {
+    padding: 160px;
+    height: 120vh;
+  }
+
+  .banner-content-index h1,
+  .banner-content-index p {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .banner-content-index h1 {
+    font-size: 1.5rem;
+  }
+
+  .banner-content-index h1 span {
+    font-size: 2.7rem;
+  }
+
+  .about-logo {
+    width: 60%;
+    margin: 25px auto;
+  }
+
+  .testimonials-container {
+    flex-direction: row;
+    width: 70%;
+    margin: 30px auto;
+    margin-bottom: 15px;
+  }
+
+  .testimonial-item {
+    height: 300px;
+  }
+
+  .about-sponsors {
+    display: none;
+  }
+
+  .about-footer {
+    background-color: var(--lightBlack);
+  }
+
+  .about-footer .footer-desc h6,
+  .about-footer .footer-desc p {
+    color: #fff;
+  }
 }

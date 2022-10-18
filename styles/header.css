@@ -72,13 +72,21 @@ header {
   display: block;
 }
 
-.nav-1 ul {
+.nav-1 {
   background-color: var(--lightBlack);
+}
+
+.nav-1 ul {
   display: flex;
   align-items: center;
   list-style: none;
   justify-content: space-around;
   padding: 5px;
+}
+
+.get-started a {
+  display: block;
+  padding: 15px 20px;
 }
 
 .nav-1 ul a {
@@ -88,6 +96,10 @@ header {
 
 .nav-1 ul img {
   width: 40px;
+}
+
+.nav-2-container .logo {
+  display: none;
 }
 
 .nav-2 ul {
@@ -102,4 +114,83 @@ header {
 .nav-2 ul a {
   text-decoration: none;
   font-size: 20px;
+}
+
+.get-started {
+  border: 4px solid var(--orange);
+  width: 150px;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px var(--lightBlack);
+    padding: 0;
+  }
+
+  .nav-2-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .humberger {
+    display: none;
+  }
+
+  .navs {
+    display: block;
+    position: relative;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .nav-1 {
+    display: grid;
+    place-items: center;
+  }
+
+  .nav-1 ul {
+    justify-content: flex-end;
+    width: 72%;
+  }
+
+  .nav-1 ul li {
+    margin: 5px 10px;
+  }
+
+  .nav-1 ul a {
+    font-size: 12px;
+  }
+
+  .nav-1 ul img {
+    display: block;
+    margin: 0 auto;
+    width: 20px;
+  }
+
+  .nav-2-container .logo {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    flex: 0.2;
+  }
+
+  .nav-2 {
+    flex: 0.6;
+  }
+
+  .nav-2 ul {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-2 ul a {
+    font-size: 17px;
+  }
 }
