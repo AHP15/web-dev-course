@@ -87,6 +87,7 @@ header {
 .get-started a {
   display: block;
   padding: 15px 20px;
+  text-align: center;
 }
 
 .nav-1 ul a {
